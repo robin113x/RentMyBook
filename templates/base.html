@@ -12,19 +12,20 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
+
   <title>RentMyBook</title>
 </head>
 
 <body>
   <!--Nav Bar-->
-  <nav class="navbar navbar-dark bg-secondary">
+  <nav class="navbar navbar-dark bg-dark">
     <a class="navbar-brand" href="{% url 'list' %}">RentMyBook</a>
     <div class="btn-group dropright">
       <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         {{user}}
       </a>
 
-    <!--login conditions -->
+      <!--login conditions -->
 
       <div class="dropdown-menu">
         {% if user.is_authenticated %}
@@ -33,7 +34,7 @@
         <a class="dropdown-item text-secondary" href="{% url 'login' %}">Log In</a>
         <a class="dropdown-item text-secondary" href="{% url 'signup' %}">Sign Up</a>
         {% endif %}
-        </div>
+      </div>
     </div>
     <div class="mx-auto" style="width: 10px;">
     </div>
@@ -50,13 +51,27 @@
 
 
 
-  <div class='container'>
+  <div class='container' style="border: #FF69B4">
+
+
+
+
+
+
 
 
     {% block content %}
 
 
     {% endblock content %}
+
+
+
+
+
+  </div>
+
+
 
 
   </div>

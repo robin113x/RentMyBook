@@ -1,6 +1,6 @@
 
 h1 {
-    color: red;
+    color: rgb(253, 0, 0);
 }
 
 *{
@@ -25,7 +25,7 @@ body{
     height: 50px;
     text-align: center;
     line-height: 55px;
-    background: rgb(16, 141, 190);
+    background: rgb(236, 4, 186);
     border-radius: 30px;
     overflow: hidden;
     transition: .8s;
@@ -45,7 +45,7 @@ body{
     display: block;
     position: absolute;
     background: transparent;
-    color: #fff;
+    color: rgb(0, 0, 0);
     height: 32px;
     font-size: larger;
     top: 8px;
@@ -56,6 +56,23 @@ body{
 .search input{ display: none; }
 
 .search i{
-    color: #fff;
+    color: rgb(245, 188, 0);
     font-size: 22px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

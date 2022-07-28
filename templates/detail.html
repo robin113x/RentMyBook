@@ -1,8 +1,22 @@
 
+
+
+
 {% extends 'base.html' %}
 
 
+
+
+
+
+
 {% block content %}
+
+
+
+
+
+
 
 <br>
 <div class="card mb-3" style="max-width: 840px;">
@@ -18,6 +32,39 @@
         </div>
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   </div>
 
 <!-- <p>Follow Author: </p> -->
@@ -27,6 +74,7 @@
 
 {% if object.book_available is True %}
 <a href="{% url 'checkout' object.pk %}" class="btn btn-outline-success" role="button">Buy Now</a>
+<a href="{% url 'checkout' object.pk %}" class="btn btn-outline-success" role="button">Rent Now</a>
 {% else %}
 <h4 class="text-danger">Out of Stock !</h4>
 {% endif %}
