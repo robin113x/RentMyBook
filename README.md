@@ -13,8 +13,8 @@
   <br>
   <img src="https://raw.githubusercontent.com/robin113x/RentMyBook/main/image/3.png">
 
-<p id ="top" align="center">
-  <img src="" width="90%">
+<p >
+Thank You
 </p>
 
 
