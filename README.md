@@ -3,9 +3,15 @@
 
 
 # RentMyBook (Online Book Store)
-<p>An online bookshop developed in django which allow users to purchase or rent books online :) </p>
+<p>An online bookshop developed in django which allow users to purchase or rent books online 🦖 </p>
   <hr>
-<img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/dj-ecom-bstore-pic2.png?raw=true">
+<img src="https://raw.githubusercontent.com/robin113x/RentMyBook/main/image/1.png">
+  <br>
+  
+  <img src="https://raw.githubusercontent.com/robin113x/RentMyBook/main/image/2.png">
+  
+  <br>
+  <img src="https://raw.githubusercontent.com/robin113x/RentMyBook/main/image/3.png">
 
 <p id ="top" align="center">
   <img src="" width="90%">
