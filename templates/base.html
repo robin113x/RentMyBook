@@ -12,13 +12,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  <title>Online Bookstore</title>
+  <title>RentMyBook</title>
 </head>
 
 <body>
   <!--Nav Bar-->
-  <nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="{% url 'list' %}">Online Bookstore</a>
+  <nav class="navbar navbar-dark bg-secondary">
+    <a class="navbar-brand" href="{% url 'list' %}">RentMyBook</a>
     <div class="btn-group dropright">
       <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         {{user}}
@@ -43,7 +43,7 @@
       <script src="https://kit.fontawesome.com/a076d05399.js"></script>
       <link rel="stylesheet" href="{% static 'css/base.css' %}">
       <i class="fas fa-search"></i>
-      <input name="q" class="fas fa-search" type="text" autocomplete="off" placeholder="click to search">
+      <input name="q" class="fas fa-search" type="text" autocomplete="off" placeholder="">
     </form>
 
   </nav><br>

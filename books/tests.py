@@ -8,9 +8,9 @@ class BookTest(TestCase):
 
     def setUp(self): # filling user data (credentials)
         self.user = get_user_model().objects.create_user(
-            username = 'yash',
-            email = 'yashmarmat08@gmail.com',
-            password = 'secret',
+            username = 'Robin',
+            email = 'robin113x@gmail.com',
+            password = 'robin113x',
         )
 
         self.book = Book.objects.create(    # filling Book model fields
